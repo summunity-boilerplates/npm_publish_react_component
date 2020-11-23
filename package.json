@@ -1,11 +1,13 @@
 {
   "name": "@nsumikawa/npm_publish",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "Npm publishing boiler plate",
   "main": "build/index.js",
   "mode": "production",
   "peerDependencies": {
-    "react": "^17.0.1"
+    "react": "^17.0.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.12.1",
@@ -17,7 +19,7 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
     "web-vitals": "^0.2.4",
-    "webpack": "^5.6.0",
+    "webpack": "^4.44.2",
     "webpack-cli": "^4.2.0"
   },
   "scripts": {
@@ -51,6 +53,15 @@
     ]
   },
   "dependencies": {
-    "babel-preset-env": "^1.7.0"
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/react": "^11.2.1",
+    "@testing-library/user-event": "^12.2.2",
+    "babel-preset-env": "^1.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-scripts": "4.0.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.1",
+    "web-vitals": "^0.2.4"
   }
 }
